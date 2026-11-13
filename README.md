@@ -32,5 +32,5 @@ npm run verify:java
 ```
 
 ```bash
-cd examples/spring && mvn -q test
+npm run verify:spring
 ```

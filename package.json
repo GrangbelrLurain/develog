@@ -7,7 +7,8 @@
     "build": "vitepress build docs",
     "build:drafts": "DEVELOG_INCLUDE_DRAFTS=1 vitepress build docs",
     "preview": "vitepress preview docs",
-    "verify:java": "bash scripts/verify-java.sh"
+    "verify:java": "bash scripts/verify-java.sh",
+    "verify:spring": "mvn -B -q -f examples/spring/pom.xml test"
   },
   "devDependencies": {
     "gray-matter": "^4.0.3",

@@ -5,7 +5,7 @@ description: 챕터 초안의 예제를 실행하고 문장을 공식 문서와 
 입력: 챕터 파일 경로. 초안을 쓴 대화가 아닌 새 대화에서 실행한다.
 
 1. `STYLE.md`를 읽는다.
-2. 예제를 실행한다: `npm run verify:java`, `(cd examples/spring && mvn -q test)`.
+2. 예제를 실행한다: `npm run verify:java`, `npm run verify:spring`.
 3. 본문의 코드 블록이 그 자체로 컴파일되는지, "좋은 코드"가 "나쁜 코드"와 같은 동작을 하는지 확인한다.
 4. 사실 주장을 하나씩 공식 문서(언어 명세, API 문서, 프레임워크 레퍼런스)와 대조한다. TypeScript/Node.js 쪽 주장도 포함한다.
 5. `reviews/<언어>/NN-<주제>.md`에 보고서를 쓴다. 항목마다 판정(확인 / 틀림 / 과장 / 미확인), 근거(실행한 예제 또는 문서 링크), 수정 제안을 적는다.

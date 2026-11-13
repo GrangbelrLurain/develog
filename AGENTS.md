@@ -32,5 +32,5 @@
 npm run dev            # 초안 포함 미리보기
 npm run build          # 발행 대상만 빌드
 npm run verify:java    # Java 단일 파일 예제 실행
-(cd examples/spring && mvn -q test)   # Spring 예제 테스트
+npm run verify:spring   # Spring 예제 테스트
 ```
